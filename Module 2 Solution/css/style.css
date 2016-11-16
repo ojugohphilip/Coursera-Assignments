@@ -1,0 +1,135 @@
+/* style sheet for Assignment Module 2 "Restaurant"*/
+
+/*page reset settings */
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+/*Main header general display settings*/
+h1 {
+font-size:%;
+font-weight:bold;
+text-align:center;
+color:#fed401;
+margin: 50px;
+font-family:sans-serif;
+
+ }
+
+/*General display settings for all h2 category headers*/
+h2 {
+position:absolute;
+right:0px;
+top:0px;
+background-color: #A52626;
+border:3px solid black;
+width:30%;
+font-size:120%;
+margin-top:0;
+font-style:italic;
+color:#fed401;
+}
+body{
+  background-color:#3b6284;
+}
+p {
+font-style:italic;
+font-family:cursive;
+}
+
+/*only "Section" tag created just to restore normal html settings with the float command */
+section {
+clear:left;
+}
+
+#div1, #div2, #div3 {
+  margin-right:0px;
+  position:relative;
+}
+.row{width:100%;background-color:#A52626;}
+
+
+/*media queries for large screen display preferences*/
+
+@media (min-width:992px){
+.col-lg-1, .col-lg-2, .col-lg-3,.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+	float:left;
+	background-color:#00ff00;
+border:3px solid black;
+padding:25px;
+margin:3%;
+
+/*88% total screen size used, Remaining 12% reserved for responsive margins*/
+}
+.col-lg-1{width:7.33%;}
+.col-lg-2{width:14.67%;}
+.col-lg-3{width:22%;}
+.col-lg-4{width: 29.33%;}
+.col-lg-5{width:36.67%;}
+.col-lg-6{width:44%;}
+.col-lg-7{width:51.46%;}
+.col-lg-8{width:58.66%;}
+.col-lg-9{width:66.17%;}
+.col-lg-10{width:73.33%;}
+.col-lg-11{width:80.73%;}
+.col-lg-12{width:88%;}
+}
+
+/*Media queries for medium screen display settings*/
+@media (min-width:768px) and (max-width:991px){
+.col-md-1, .col-md-2, .col-md-3,.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	float:left;
+	background-color:#00ff00;
+border:3px solid black;
+padding:25px;
+margin:3%;
+
+/*94% total screen size used, Remaining 6% reserved for responsive margins*/
+}
+#div3{width:94%;}
+
+/*88% total screen size used, Remaining 12% reserved for responsive margins*/
+
+.col-md-1{width:7.33%;}
+.col-md-2{width:14.67%;}
+.col-md-3{width:22%;}
+.col-md-4{width: 29.33%;}
+.col-md-5{width:36.67%;}
+.col-md-6{width:44%;}
+.col-md-7{width:51.46%;}
+.col-md-8{width:58.66%;}
+.col-md-9{width:66.17%;}
+.col-md-10{width:73.33%;}
+.col-md-11{width:80.73%;}
+.col-md-12{width:88%;}
+}
+
+
+/*media queries for small screen display preferences*/
+@media(max-width:767px){
+.col-sm-1, .col-sm-2, .col-sm-3,.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+		background-color:#00ff00;
+border:3px solid black;
+margin:3%;
+padding:25px;
+
+
+/*88% total screen size used, Remaining 12% reserved for responsive margins*/
+}
+.col-sm-1{width:7.33%;}
+.col-sm-2{width:14.67%;}
+.col-sm-3{width:22%;}
+.col-sm-4{width: 29.33%;}
+.col-sm-5{width:36.67%;}
+.col-sm-6{width:44%;}
+.col-sm-7{width:51.46%;}
+.col-sm-8{width:58.66%;}
+.col-sm-9{width:66.17%;}
+.col-sm-10{width:73.33%;}
+.col-sm-11{width:80.73%;}
+.col-sm-12{width:88%;}
+}
+
+/*End of Styling*/
