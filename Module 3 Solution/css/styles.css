@@ -1,0 +1,48 @@
+body{
+	background-color:#ff0000;
+}
+
+/*Navbar styles*/
+#main-nav {
+	background-color:#b22222;
+	border-radius:0;
+	
+}
+
+#brand-name{
+	font-family: 'Reem Kufi', sans-serif;
+	color:#F4BD0B;
+	font-size:3em;
+}
+
+button.navbar-toggle, #menu-button, button .icon-bar{
+	background-color:#b22222;
+	border:2px solid #F4BD0B;
+
+}
+#menu-menu li > a{
+	color: #F4BD0B;
+	font-size:1.8em;
+}
+#menu-hover li{
+	background-color:#EB146C;
+}
+#menu-hover li:hover, #menu-button:hover, #menu-hover li:active,#menu-button:active{
+	background-color:#CBF5D2;
+
+}
+/*navbar styles END*/
+
+/*MAIN CONTENT*/
+h2{
+	color: #F4BD0B;
+	font-size:1.8em;
+}
+
+.main-content{
+	background-color:#ffa07a;
+	margin-bottom:10px;
+}
+.main-content p{
+	padding:10px;
+}
